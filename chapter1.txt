@@ -3,3 +3,9 @@ Hello there
 
 Git status
 Git add chapter1.txt
+Git commit -m "Hier komt je commentaar te staan 
+		(je message over welke update je hebt gedaan o.i.d. bijv completed chapter1 
+		liefst in de voltooid verleden tijd) "
+
+Git log
+

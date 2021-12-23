@@ -1,6 +1,6 @@
 Hello there
 
-
+Git init (zorgde ervoor dat de map/folder werd geselecteerd voor GIT)
 Git status
 Git add chapter1.txt
 Git commit -m "Hier komt je commentaar te staan 
@@ -9,3 +9,27 @@ Git commit -m "Hier komt je commentaar te staan
 
 Git log
 
+
+
+Working directory			Staging Area				Local repository
+			>>> GIT add >>>			>>> Git commit >>> 
+
+
+					<<<< git checkout <<<<
+
+
+
+Wat zijn de verschillen tussen de twee bestanden 
+Command is git diff filename (chapter1.txt)
+
+
+Ga naar GitHub toe maak een nieuw repository aan (bijv. Story)
+Kopieer de link bijv. Https://github.com/TisisiT/story.git
+
+Dan ga je naar je locale directory (folder) en daar type je 
+
+git remote add origin https://github.com/TisisiT/story.git
+git push -u origin master
+
+Origin is dan de name of the remote
+Master is de name of the branch
